@@ -1,0 +1,93 @@
+
+/* 
+
+Author: Alexis Parker
+Purpose: To give style to Project Milestone html files.
+Filename: pmstyle.css
+
+*/
+
+#logo{ 
+  position: absolute;
+  top:0;
+  right:0;
+}
+
+#topLeftCornerInfo {
+   margin: 20px;
+   padding: 10pt;
+
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 300px;
+   
+   
+}
+
+
+#projectTitle {
+    font-size: 34pt;
+    padding: 10px;
+    text-align: center;
+  
+}
+
+h2
+{
+    font-size: 20pt;
+    text-align: center;
+
+}
+
+.miniSectionTitle
+{
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: left;
+}
+
+section {
+    margin: 40px;
+    margin-right: 300px;
+     padding:70px;
+    height: 100%;
+    width: 100%;
+}
+
+figure {
+    float: right;
+}
+
+
+
+/* styling for unordered lists, ordered lists, and links */
+
+ol {
+    color: white;
+    text-align: left;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+   text-align: left;
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  font-size: 25pt;;
+  color: #de3055;
+ /* Change the color */
+}
+
+a {
+    color: #de3055;
+}

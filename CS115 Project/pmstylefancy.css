@@ -1,0 +1,78 @@
+
+/* 
+
+Author: Alexis Parker
+Purpose: To give style to Project Milestone html files.
+Filename: pmstyle.css
+
+*/
+
+
+#topLeftCornerInfo {
+   margin: 20px;
+   padding: 10pt;
+
+}
+
+figure{
+  position:absolute;
+  top:0;
+  right:0;
+}
+#projectTitle {
+    font-size: 34pt;
+    padding: 10px;
+    text-align: center;
+      text-shadow: 6px 2px 10px  #de3055;
+  
+}
+
+.sectionTitle
+{
+    font-size: 20pt;
+    text-align: center;
+     text-shadow: 1px 6px 9px  cyan;
+
+}
+
+.miniSectionTitle
+{
+    font-size: 14pt;
+    font-weight: 1000;
+    text-align: left;
+     text-shadow: 1px 6px 9px  cyan;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+/* styling for unordered lists, ordered lists, and links */
+
+ol {
+    color: white;
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+}
+ul::before {
+  content: "• ";
+    font-size: 25pt;;
+  color: #de3055;
+}
+
+a {
+    text-shadow:1px 5px 10px  #de3055;
+    color: white;
+}

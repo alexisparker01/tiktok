@@ -1,0 +1,303 @@
+
+/* default styling for the background, font, and text color of the website */
+
+html, body {
+     font-family:'Montserrat', serif;
+    background-color: black;
+    color: white;
+}
+
+
+/* so the content of the page won't be behind the navigation bar */
+main {
+    margin-left: 18%;
+}
+
+
+/* navigation bar styling */
+
+#navi {
+    position: fixed; 
+    font-size: 16px;
+    font-family:'DotGothic16', sans-serif;
+    padding-top: 13%;
+    height: 100vh;
+    width: 18%;
+    background-color: black;
+    /* new change for pm4 */
+    border-right: 4px dotted #de3055;
+    /* new change for pm4 */
+    
+
+}
+
+#navi a {
+    
+ padding-left: 30px;
+
+}
+
+/* styling for the very first page */
+
+#homepage {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(1,1,1,0.7),rgba(1,1,1,0.1)),url(pmimages/backgroundImage.jpeg);
+    background-size: cover;
+    background-size: 700px;
+    background-position: center;
+ 
+}
+
+
+#bgImageCred {
+    position: absolute;
+    top: 93%;
+    left: 88%;
+    padding: 5px;
+    font-size: 15px;
+    text-shadow: 1px 6px 9px black;
+    
+}
+
+
+#title {
+        /* new */
+    position: absolute;
+    top: 30%;
+    left: 30%;
+        /* new */
+    color: white;
+    font-size: 40px;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    text-shadow: 1px 6px 9px #de3055;
+    
+      
+}
+    
+
+
+
+#intro {
+    /* new */
+  position: absolute;
+    top: 45%;
+    left: 30%;
+    margin-right: 10%;
+    /*new*/
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+  font-family:'Montserrat', sans-serif;
+    /* new changes for pm 4 */
+ text-shadow: 1px 6px 9px cyan;
+    /*end of new changes */
+    
+
+}
+
+.sectionStyle {
+
+width: 100%;
+height: 100vh;
+padding: 20px;
+margin-right: 100px;
+margin-bottom: 25px;
+color: white;
+background-position: center;
+
+}
+
+.sectionA {
+   
+    background-color: #de3055;
+    
+    
+}
+
+.sectionB {
+  
+    background-color: black;
+    
+}
+
+.sectionTitleA
+{
+    font-size: 20pt;
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    font-family:'DotGothic16', sans-serif;
+
+}
+
+.sectionTitleB
+{
+    font-size: 20pt;
+    text-align: center;
+    text-shadow: 1px 6px 9px  cyan;
+    padding: 20px;
+    text-align: center;
+    font-family:'DotGothic16', sans-serif;
+
+}
+
+
+
+.miniSectionTitle
+{
+    font-size: 14pt;
+    font-weight: 900;
+    text-align: left;
+    text-shadow: 1px 6px 9px  cyan;
+    padding: 20px;
+    margin: 0px;
+      font-family:'DotGothic16', sans-serif;
+}
+
+footer {
+    position: absolute;
+    bottom: 800px;
+    padding: 25px;
+}
+
+p {
+     font-family:'Montserrat', serif;
+      text-align: justify;
+
+}
+
+/* Picture Ids */
+
+#imageOne {
+    width: 500px;
+    height: 300px; 
+}
+
+#imageTwo {
+    width: 500px;
+    height: 300px;
+}
+
+#imageThree {
+    width: 510px;
+    height: 280px; 
+}
+
+#imageFour {
+    width: 575px;
+    height: 200px;
+
+}
+
+#imageFive {
+    width: 400px;
+    height: 300px; 
+    margin-left: 75px;
+}
+
+#imageSix {
+    width: 400px;
+    height: 200px;
+}
+
+#imageSeven {
+    width: 450px;
+    height: 250px;
+    
+}
+
+#imageEight {
+    width: 450px;
+    height: 300px;
+}
+
+#imageNine {
+    width: 200px;
+    height: 200px;
+    margin-left: 450px;
+}
+
+
+#imageTen {
+    width: 300px;
+    height: 200px;
+      margin-left: 100px;
+}
+
+/* styling for captions */
+
+.caption {
+    font-family: 'Montserrat', serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+/* splits the section in half vertically for two sections of text */
+
+.col {
+    width: 50%;
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.row {
+display: flex;
+    
+}
+
+
+/* footer section */
+
+#footer {
+    color: white;
+    margin-top: 100px;
+    padding-top: 50px;
+    background: #de3055;
+    height: 200px;
+    border-top: solid white 4px;
+
+    
+}
+
+#footerText {
+    margin-left: 5%;
+    text-align: center;
+}
+
+
+
+/* styling for unordered lists, ordered lists, and links */
+
+ol {
+    color: white;
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+     font-family:'Montserrat', serif;
+}
+ul::before {
+  content: "• ";
+    font-size: 25pt;;
+  color: #de3055;
+}
+
+a {
+    text-shadow: 1px 2px 9px  cyan;
+    font-weight: 900;
+    text-decoration: none;
+
+    
+    
+}
+
+    
+
